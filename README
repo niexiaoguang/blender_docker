@@ -1,0 +1,7 @@
+start docker :
+
+docker run --runtime=nvidia --gpus=all -it --rm -e DISPLAY -u $(id -u):$(id -g) -v /tmp/.X11-unix:/tmp/.X11-unix -v "$(pwd)":/tmp/blender -e XAUTHORITY -e NVIDIA_DRIVER_CAPABILITIES=all bl_ev_nv bash
+
+
+run inside docker :
+I have no name!@2f4c83be1a4e:/usr/app/blender-2.82a-linux64$ ./blender -b /tmp/blender/eve.blend -P /tmp/blender/cyc.py

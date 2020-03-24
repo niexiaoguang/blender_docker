@@ -1,0 +1,14 @@
+
+# backtrace
+/usr/lib/blender/blender(BLI_system_backtrace+0x33) [0x55f1e8b82033]
+/usr/lib/blender/blender(+0x139d99f) [0x55f1e650499f]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3ef20) [0x7f1f674cdf20]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x230) [0x7f1f674cf8f0]
+/usr/lib/blender/blender(_ZN15GHOST_SystemX11C1Ev+0x493) [0x55f1e6eca2e3]
+/usr/lib/blender/blender(_ZN13GHOST_ISystem12createSystemEv+0x35) [0x55f1e6ec6e35]
+/usr/lib/blender/blender(GHOST_CreateSystem+0x9) [0x55f1e6ec5d09]
+/usr/lib/blender/blender(wm_ghost_init+0x2d) [0x55f1e66eb90d]
+/usr/lib/blender/blender(WM_init+0x29d) [0x55f1e66d663d]
+/usr/lib/blender/blender(main+0x266) [0x55f1e64a8236]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f1f674b0b97]
+/usr/lib/blender/blender(_start+0x2a) [0x55f1e6500fea]
